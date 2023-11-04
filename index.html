@@ -149,7 +149,6 @@
 
                
             },
-
             methods: {
                 addToCart: function (id) {
                     availValue = this.colArys.find(i => i.id == id).avail;
@@ -157,7 +156,7 @@
                      {
                         this.colArys.find(i => i.id == id).avail--;
                         this.cart.push(this.colArys.find(i => i.id == id));
-                       
+                    
                      }
                 },
                 checkOut: function () {
@@ -226,6 +225,7 @@
                 btnsubmit: function () {
                     if(!alert("Thank you for your purchase")){
                         this.isProduct = true;
+                        this.cart = [];
                     };
                 }
             }
