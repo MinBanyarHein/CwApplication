@@ -5,7 +5,7 @@ let lesson = [
     "name": "Math",
     "city": "London",
     "price": "300",
-    "avail":"10"
+    "avail":"5"
     },
     {
     "id":"2",  
@@ -13,7 +13,7 @@ let lesson = [
     "name": "Spanish",
     "city": "Manchester",
     "price": "200",
-    "avail":"20"
+    "avail":"5"
     },
     {
     "id":"3",  
@@ -21,7 +21,7 @@ let lesson = [
     "name": "English",
     "city": "Birmingham",
     "price": "110",
-    "avail":"13"
+    "avail":"5"
     },
     {
     "id":"4",  
@@ -29,7 +29,7 @@ let lesson = [
     "name": "Physics",
     "city": "Leeds",
     "price": "100",
-    "avail":"16"
+    "avail":"5"
     },
     {
     "id":"5",  
@@ -37,7 +37,7 @@ let lesson = [
     "name": "Chemistry",
     "city": "London",
     "price": "400",
-    "avail":"4"
+    "avail":"5"
     },
     {
     "id":"6", 
@@ -45,7 +45,7 @@ let lesson = [
     "name": "Biology",
     "city": "Sheffield",
     "price": "100",
-    "avail":"10"
+    "avail":"5"
     },
     {
     "id":"7",  
@@ -53,7 +53,7 @@ let lesson = [
     "name": "Introduction to JavaScript",
     "city": "London",
     "price": "45",
-    "avail":"6"
+    "avail":"5"
     },
     {
     "id":"8",  
@@ -61,7 +61,7 @@ let lesson = [
     "name": "Introduction to Java",
     "city": "Bristol",
     "price": "60",
-    "avail":"3"
+    "avail":"5"
     },
     {
     "id":"9", 
@@ -69,7 +69,7 @@ let lesson = [
     "name": "Introduction to Python",
     "city": "Liverpool",
     "price": "75",
-    "avail":"8"
+    "avail":"5"
     },
     {
     "id":"10", 
@@ -77,7 +77,7 @@ let lesson = [
     "name": "Introduction to C++",
     "city": "Birmingham",
     "price": "90",
-    "avail":"7"
+    "avail":"5"
     },
 
 ]
