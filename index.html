@@ -130,9 +130,12 @@
                 srchLesson: function () {
                     return this.colArys.filter((colAry) => {
                         return colAry.name.toLowerCase().includes(this.search.toLowerCase()) ||
-                            colAry.city.toLowerCase().includes(this.search.toLowerCase())
+                            colAry.city.toLowerCase().includes(this.search.toLowerCase())||
+                            colAry.price.toString().includes(this.search.toLowerCase())||
+                            colAry.avail.toString().includes(this.search.toLowerCase())
                     })
                 },
+
                 sortedLesson: function () {
                     const sorted = this.srchLesson.slice();
                     if (this.ascending) {
